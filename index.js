@@ -70,7 +70,15 @@ function init() {
     inquirer.prompt(questions)
     .then((answers) => {
       const markdown = generateMarkdown(answers);
-      writeToFile('README.md', markdown);
+      const fileName = `README_${answers.title}.md`;
+
+        fs.writeFile(fileName, markdown, (err) => {
+        if (err) {
+            console.error('Error creating file:', err);
+        } else {
+            console.log(`Successfully created ${fileName}`);
+        }
+        });
     })
     .catch((error) => {
       console.error('An error occurred:', error);
