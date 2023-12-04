@@ -52,7 +52,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 Currently, there are no automated tests for this application, although I highly recommend testing out the application yourself.
 
 ## App Walkthrough
-https://www.loom.com/share/6d2e697412d04a079ad13cf7d3223dc7?sid=1d068b16-3a49-4609-9a5d-ca8dc27db0bd
+https://www.loom.com/share/42f2485cd407429ca7ca28d9decc4144?sid=0448326c-b7aa-4ec4-aabb-4ddcbeef5679
 
 ## Questions
 
