@@ -35,7 +35,7 @@ const questions = [
       {
         type: 'input',
         name: 'tests',
-        message: 'Are there tests needed for this app?',
+        message: 'How do you run or test this app?',
       },
       {
         type: 'list',
