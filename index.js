@@ -29,7 +29,7 @@ const questions = [
       },
       {
         type: 'input',
-        name: 'contributing tech',
+        name: 'contributing',
         message: 'What inputs are required for the app?',
       },
       {
